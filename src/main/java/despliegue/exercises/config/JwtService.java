@@ -1,5 +1,6 @@
 package despliegue.exercises.config;
 
+import despliegue.exercises.models.User;
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;
