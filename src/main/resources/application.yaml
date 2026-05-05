@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: exercises
+
+  data:
+    mongodb:
+      uri: ${MONGO_URI}
+
+application:
+  security:
+    jwt:
+      secret-key: ${JWT_SECRET}
+      expiration: 86400000 # 1 day in ms
+      refresh-token:
+        expiration: 604800000 # 7 days in ms
